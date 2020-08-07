@@ -1,0 +1,168 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        width: 800px;
+        height: 320px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        z-index: 1;
+      }
+      video {
+        width: 50%;
+        height: 50%;
+      }
+      .hr {
+        /*透明渐变水平线*/
+        width: 80%;
+        margin: 600px auto;
+        height: 1px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0)
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div id="v"> -->
+<!-- muted静音 -->
+<!-- <video id="video" autoplay controls loop muted>
+        <source
+          src="https://sf3-g-cn.dailygn.com/obj/sf-game-lf/gopscn/public_res/br_hw.mp4?jv=1.0.20200618"
+        />
+      </video>
+    </div>
+    <div class="hr"></div>
+    <script>
+      document.getElementById("v").onclick = () => {
+        console.log(111);
+        document.getElementById("video").play();
+      };
+    </script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    p{
+      color: #812556;
+      letter-spacing: -0.15em;
+    }
+    span{
+      animation: loading_gradation 1s linear infinite;
+    }
+    span:nth-child(1){
+      animation-delay: 50ms;
+    }
+    span:nth-child(2){
+      animation-delay: .1s;
+    }
+    span:nth-child(3){
+      animation-delay: .15s;
+    }
+    span:nth-child(4){
+      animation-delay: .2s;
+    }
+    span:nth-child(5){
+      animation-delay: .25s;
+    }
+    span:nth-child(6){
+      animation-delay: .3s;
+    }
+    span:nth-child(7){
+      animation-delay: .35s;
+    }
+    span:nth-child(8){
+      animation-delay: .4s;
+    }
+    span:nth-child(9){
+      animation-delay: .45s;
+    }
+    span:nth-child(10){
+      animation-delay: .5s;
+    }
+    span:nth-child(11){
+      animation-delay: .55s;
+    }
+    span:nth-child(12){
+      animation-delay: .6s;
+    }
+    span:nth-child(13){
+      animation-delay: .65s;
+    }
+
+    @keyframes loading_gradation{
+      0%{
+        color: aqua;
+      }
+      10%{
+        color: aquamarine;
+      }
+      20%{
+        color: bisque;
+      }
+      30%{
+        color: brown;
+      }
+    40%{
+        color:chocolate
+      }
+      50%{
+        color:darkblue
+      }
+      60%{
+        color: darkgreen;
+      }
+      70%{
+        color: darkmagenta;
+      }
+      80%{
+        color: darksalmon;
+      }
+      90%{
+        color: darkslategrey;
+      }
+      100%{
+        color: darkturquoise;
+      }
+    }
+  </style>
+  <body>
+    <p>
+      <span>N</span>
+      <span>O</span>
+      <span>W</span>
+      <span> L</span>
+      <span>O</span>
+      <span>A</span>
+      <span>D</span>
+      <span>I</span>
+      <span>N</span>
+      <span>G</span>
+      <span>.</span>
+      <span>.</span>
+      <span>.</span>
+    </p>
+  </body>
+</html>
