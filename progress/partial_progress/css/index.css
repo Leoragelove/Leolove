@@ -1,0 +1,13 @@
+._data-progress{
+  width: 500px;
+  height: 10px;
+  border: 1px solid rgba(245, 189, 68, 0.6);
+  background: rgb(218, 208, 208);
+  border-radius: 10px;
+}
+._data-cnt{
+  width: 0;
+  height: 100%;
+  background: rgba(56, 139, 14, 0.7);
+  border-radius: 10px;
+}
